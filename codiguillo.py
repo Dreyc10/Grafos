@@ -30,6 +30,8 @@ def adyacentes_a_vi(grafo,v_i):
     while i < len(grafo[v_i]):
         if if_conectados(grafo,v_i,i):
             lista_adyacentes.append(i)
+        i=i+1
+    return lista_adyacentes
 
 def degree_v_i(grafo,v_i):
     return len(adyacentes_a_vi(grafo,v_i))
@@ -40,6 +42,7 @@ def num_arcos(grafo):
     sum=0
     while i <= len(grafo):
         sum=sum+degree_v_i(i)
+        i=i+1
 
     return sum/2
 
