@@ -1,7 +1,6 @@
 def create_graph(num_vertex):   
     
     grafo=[]
-    
     i=1
     while i <=num_vertex:
         fila_i= []
