@@ -1,3 +1,2 @@
 # Grafos
-David Rey
-Nicolas Contreras
+David Rey y Nicolas Contreras
