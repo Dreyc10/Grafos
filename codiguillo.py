@@ -15,13 +15,13 @@ def create_graph(num_vertex):
 
 def conectar_vertices (grafo, v_1, v_2 ):
 
-    grafo[v_1][v_2]=0
-    grafo[v_2][v_1]=0
+    grafo[v_1][v_2]=1
+    grafo[v_2][v_1]=1
 
 def desconectar_vertices (grafo, v_1, v_2):
 
-    grafo[v_1][v_2]=1
-    grafo[v_2][v_1]=1
+    grafo[v_1][v_2]=0
+    grafo[v_2][v_1]=0
 
 def adyacentes_a_vi(grafo,v_i):
     i=0
